@@ -1,8 +1,8 @@
+import { toast } from "react-toastify";
+
 const Cards = ({ pricing, selectProducts, setSelectProducts }) => {
-
   const handleCart = () => {
-
-    alert(`added ${pricing.name}`);
+    toast.success(`added ${pricing.name}`);
     setSelectProducts([...selectProducts, pricing]);
     // console.log("clicked", selectProducts);
   };

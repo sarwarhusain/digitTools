@@ -4,6 +4,8 @@ import Banner from "./Components/Banner/Banner";
 import NavBar from "./Components/NavBar/NavBar";
 import Stat from "./Components/Stat/Stat";
 import PricingOption from "./Components/PricingOption/PricingOption";
+import { ToastContainer } from "react-toastify";
+import ThreeSteps from "./Components/ThreeSteps/ThreeSteps";
 
 const cardsPromise = fetch("/data.json").then((res) => res.json());
 function App() {
@@ -11,7 +13,6 @@ function App() {
   return (
     <>
       <NavBar
-      
         selectProducts={selectProducts}
         setSelectProducts={setSelectProducts}
       />
@@ -26,6 +27,8 @@ function App() {
           setSelectProducts={setSelectProducts}
         ></PricingOption>
       </Suspense>
+      <ToastContainer />
+      <ThreeSteps />
     </>
   );
 }
