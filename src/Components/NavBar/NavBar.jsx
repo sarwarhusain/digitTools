@@ -10,7 +10,7 @@ const NavBar = ({ selectProducts }) => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-1 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
               <a>Products</a>
@@ -30,7 +30,9 @@ const NavBar = ({ selectProducts }) => {
           </ul>
         </div>
 
-        <a className="text-[#9514FA] text-xl font-bold">DigitTools</a>
+        <a className="btn  rounded-full text-white bg-linear-to-r from-[#7B2FF7] to-[#F107A3] border-none font-bold">
+          DigitTools
+        </a>
       </div>
 
       <div className="navbar-center hidden lg:flex gap-6">
@@ -46,14 +48,14 @@ const NavBar = ({ selectProducts }) => {
 
         <button className="btn btn-ghost btn-circle">
           <div className="indicator">
-            <FaCartShopping size={18} />
+            <FaCartShopping size={20} />
             <span className="badge badge-xs badge-primary indicator-item">
               {selectProducts.length}
             </span>
           </div>
         </button>
 
-        <button className="btn rounded-full text-[#9514FA] hidden sm:inline-flex">
+        <button className="btn font-bold rounded-full text-white bg-linear-to-r from-[#7B2FF7] to-[#F107A3] border-none">
           Get Started
         </button>
       </div>

@@ -11,7 +11,6 @@ const CartCard = ({ product, selectProducts, setSelectProducts }) => {
   return (
     <div className="max-w-7xl mx-auto mt-5">
       <div className=" bg-[#F9FAFC] shadow-sm">
-        {/* Cart Items */}
         <div className="space-y-1">
           <div className="flex items-center justify-between p-3 rounded-lg">
             <div className="flex items-center gap-3">

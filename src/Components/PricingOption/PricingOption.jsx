@@ -29,7 +29,7 @@ const PricingOption = ({ cardsPromise, selectProducts, setSelectProducts }) => {
           }}
           className={`btn ${selected === "carts" ? "bg-[#4F39F6] text-white" : ""} rounded-full `}
         >
-          Carts{selectProducts.length}
+          Carts({selectProducts.length})
         </button>
       </div>
       {/* {selected === "products" ? (

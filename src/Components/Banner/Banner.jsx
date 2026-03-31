@@ -21,7 +21,7 @@ const Banner = () => {
           </p>
         </div>
         <div className="space-x-5 mt-5">
-          <button className="rounded-full text-white bg-[#9514FA] btn">
+          <button className="btn  rounded-full text-white bg-linear-to-r from-[#7B2FF7] to-[#F107A3] border-none">
             Explore Products
           </button>
           <button className=" btn text-[#9514FA] rounded-full">

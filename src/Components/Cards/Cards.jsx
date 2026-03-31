@@ -40,7 +40,7 @@ const Cards = ({ pricing, selectProducts, setSelectProducts }) => {
 
       <button
         onClick={handleCart}
-        className="btn w-full rounded-full text-white bg-gradient-to-r from-[#7B2FF7] to-[#F107A3] border-none"
+        className="btn w-full rounded-full text-white bg-linear-to-r from-[#7B2FF7] to-[#F107A3] border-none"
       >
         Buy Now
       </button>
