@@ -4,9 +4,11 @@
     "name": "Pro Resume Builder",
     "description": "Create professional resumes quickly with AI-assisted templates and optimization tools.",
     "price": 29.99,
+    "currency": "USD",
     "period": "monthly",
     "tag": "popular",
-    "tagType": "popular",
+    "rating": 4.8,
+    "isFeatured": true,
     "features": [
       "100+ templates",
       "ATS optimization",
@@ -20,9 +22,11 @@
     "name": "Cloud Storage Plus",
     "description": "Secure cloud storage for all your documents with automatic backups and file sharing.",
     "price": 9.99,
+    "currency": "USD",
     "period": "monthly",
-    "tag": "best seller",
-    "tagType": "best seller",
+    "tag": "best-seller",
+    "rating": 4.7,
+    "isFeatured": false,
     "features": [
       "1TB storage",
       "Automatic backup",
@@ -36,9 +40,11 @@
     "name": "AI Marketing Assistant",
     "description": "Boost your business marketing with AI-generated content and campaign management.",
     "price": 199.99,
+    "currency": "USD",
     "period": "yearly",
     "tag": "new",
-    "tagType": "new",
+    "rating": 4.6,
+    "isFeatured": true,
     "features": [
       "AI-generated ads",
       "Email campaign automation",
@@ -52,9 +58,11 @@
     "name": "Fitness Tracker Pro",
     "description": "Track your workouts, nutrition, and health metrics all in one app.",
     "price": 4.99,
+    "currency": "USD",
     "period": "monthly",
     "tag": "popular",
-    "tagType": "popular",
+    "rating": 4.5,
+    "isFeatured": false,
     "features": [
       "Step counter",
       "Calories tracker",
@@ -68,9 +76,11 @@
     "name": "Photo Editor Ultimate",
     "description": "Professional photo editing tools with filters, layers, and AI enhancements.",
     "price": 49.99,
+    "currency": "USD",
     "period": "one-time",
-    "tag": "best seller",
-    "tagType": "best seller",
+    "tag": "best-seller",
+    "rating": 4.9,
+    "isFeatured": true,
     "features": [
       "AI filters",
       "Layer support",
@@ -84,9 +94,11 @@
     "name": "Language Learning App",
     "description": "Learn new languages with AI tutors, interactive lessons, and practice exercises.",
     "price": 14.99,
+    "currency": "USD",
     "period": "monthly",
     "tag": "new",
-    "tagType": "new",
+    "rating": 4.6,
+    "isFeatured": false,
     "features": [
       "50+ languages",
       "Speech recognition",
@@ -100,9 +112,11 @@
     "name": "Project Management Pro",
     "description": "Organize tasks, teams, and projects efficiently with intuitive dashboards.",
     "price": 29.99,
+    "currency": "USD",
     "period": "monthly",
     "tag": "popular",
-    "tagType": "popular",
+    "rating": 4.7,
+    "isFeatured": false,
     "features": [
       "Task tracking",
       "Team collaboration",
@@ -114,11 +128,13 @@
   {
     "id": 8,
     "name": "Video Creation Suite",
-    "description": "Create stunning videos using templates, AI voiceovers, and effects.",
+    "description": "Create stunning videos using templates, AI voiceOvers, and effects.",
     "price": 99.99,
+    "currency": "USD",
     "period": "one-time",
-    "tag": "best seller",
-    "tagType": "best seller",
+    "tag": "best-seller",
+    "rating": 4.8,
+    "isFeatured": true,
     "features": [
       "Template library",
       "AI voiceover",
@@ -126,5 +142,23 @@
       "4K export"
     ],
     "icon": "🎬"
+  },
+  {
+    "id": 9,
+    "name": "Apple Storage Plus",
+    "description": "Secure cloud storage for all your documents with automatic backups and file sharing.",
+    "price":10.99,
+    "currency": "USD",
+    "period": "monthly",
+    "tag": "best-seller",
+    "rating": 4.7,
+    "isFeatured": false,
+    "features": [
+      "1TB storage",
+      "Automatic backup",
+      "File sharing",
+      "Encryption security"
+    ],
+    "icon": "☁️"
   }
 ]

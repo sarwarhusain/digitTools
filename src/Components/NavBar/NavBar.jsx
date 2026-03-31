@@ -1,31 +1,59 @@
-import React from "react";
 import { FaCartShopping } from "react-icons/fa6";
 
-const NavBar = () => {
+const NavBar = ({ selectProducts }) => {
   return (
-    <div className="navbar bg-base-100 container mx-auto">
+    <div className="navbar bg-base-100 container mx-auto px-4">
       <div className="navbar-start">
-        <a className="  text-[#9514FA] text-xl ">DigitTools</a>
+        <div className="dropdown">
+          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            ☰
+          </div>
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+          >
+            <li>
+              <a>Products</a>
+            </li>
+            <li>
+              <a>Features</a>
+            </li>
+            <li>
+              <a>Pricing</a>
+            </li>
+            <li>
+              <a>Testimonials</a>
+            </li>
+            <li>
+              <a>FAQ</a>
+            </li>
+          </ul>
+        </div>
+
+        <a className="text-[#9514FA] text-xl font-bold">DigitTools</a>
       </div>
-      <div className="navbar-center gap-5">
-        <p>Products</p>
-        <p>Features</p>
-        <p>Pricing</p>
-        <p>Testimonials</p>
-        <p>FAQ!</p>
+
+      <div className="navbar-center hidden lg:flex gap-6">
+        <a className="hover:text-primary cursor-pointer">Products</a>
+        <a className="hover:text-primary cursor-pointer">Features</a>
+        <a className="hover:text-primary cursor-pointer">Pricing</a>
+        <a className="hover:text-primary cursor-pointer">Testimonials</a>
+        <a className="hover:text-primary cursor-pointer">FAQ</a>
       </div>
-      <div className="navbar-end">
-        <button className="btn btn-ghost btn-circle">Login</button>
+
+      <div className="navbar-end gap-2">
+        <button className="btn btn-ghost hidden sm:inline-flex">Login</button>
 
         <button className="btn btn-ghost btn-circle">
           <div className="indicator">
-            <FaCartShopping />
+            <FaCartShopping size={18} />
             <span className="badge badge-xs badge-primary indicator-item">
-              3
+              {selectProducts.length}
             </span>
           </div>
         </button>
-        <button className="btn  rounded-full text-[#9514FA]">
+
+        <button className="btn rounded-full text-[#9514FA] hidden sm:inline-flex">
           Get Started
         </button>
       </div>
