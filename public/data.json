@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Pro Resume Builder",
+    "description": "Create professional resumes quickly with AI-assisted templates and optimization tools.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Cover letter generator"
+    ],
+    "icon": "📝"
+  },
+  {
+    "id": 2,
+    "name": "Cloud Storage Plus",
+    "description": "Secure cloud storage for all your documents with automatic backups and file sharing.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "1TB storage",
+      "Automatic backup",
+      "File sharing",
+      "Encryption security"
+    ],
+    "icon": "☁️"
+  },
+  {
+    "id": 3,
+    "name": "AI Marketing Assistant",
+    "description": "Boost your business marketing with AI-generated content and campaign management.",
+    "price": 199.99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "AI-generated ads",
+      "Email campaign automation",
+      "Social media integration",
+      "Analytics dashboard"
+    ],
+    "icon": "🤖"
+  },
+  {
+    "id": 4,
+    "name": "Fitness Tracker Pro",
+    "description": "Track your workouts, nutrition, and health metrics all in one app.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Step counter",
+      "Calories tracker",
+      "Heart rate monitor",
+      "Sleep analysis"
+    ],
+    "icon": "🏃‍♂️"
+  },
+  {
+    "id": 5,
+    "name": "Photo Editor Ultimate",
+    "description": "Professional photo editing tools with filters, layers, and AI enhancements.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "AI filters",
+      "Layer support",
+      "RAW image editing",
+      "Batch processing"
+    ],
+    "icon": "📸"
+  },
+  {
+    "id": 6,
+    "name": "Language Learning App",
+    "description": "Learn new languages with AI tutors, interactive lessons, and practice exercises.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "50+ languages",
+      "Speech recognition",
+      "Daily quizzes",
+      "Progress tracking"
+    ],
+    "icon": "🗣️"
+  },
+  {
+    "id": 7,
+    "name": "Project Management Pro",
+    "description": "Organize tasks, teams, and projects efficiently with intuitive dashboards.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Task tracking",
+      "Team collaboration",
+      "Gantt charts",
+      "Real-time notifications"
+    ],
+    "icon": "📊"
+  },
+  {
+    "id": 8,
+    "name": "Video Creation Suite",
+    "description": "Create stunning videos using templates, AI voiceovers, and effects.",
+    "price": 99.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Template library",
+      "AI voiceover",
+      "Transition effects",
+      "4K export"
+    ],
+    "icon": "🎬"
+  }
+]
