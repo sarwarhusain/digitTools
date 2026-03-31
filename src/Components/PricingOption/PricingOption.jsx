@@ -2,9 +2,7 @@ import React, { use, useState } from "react";
 import PricingCard from "../PricingCard/PricingCard";
 import Carts from "../Carts/Carts";
 
-const PricingOption = ({ cardsPromise,selectProducts, setSelectProducts }) => {
-
-
+const PricingOption = ({ cardsPromise, selectProducts, setSelectProducts }) => {
   const [selected, setSelected] = useState("products");
   const pricingData = use(cardsPromise);
   // console.log(pricingData);

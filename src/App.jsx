@@ -11,6 +11,7 @@ function App() {
   return (
     <>
       <NavBar
+      
         selectProducts={selectProducts}
         setSelectProducts={setSelectProducts}
       />

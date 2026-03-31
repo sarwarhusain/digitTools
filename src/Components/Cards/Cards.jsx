@@ -1,8 +1,10 @@
 const Cards = ({ pricing, selectProducts, setSelectProducts }) => {
+
   const handleCart = () => {
-    
+
+    alert(`added ${pricing.name}`);
     setSelectProducts([...selectProducts, pricing]);
-    console.log("clicked", selectProducts);
+    // console.log("clicked", selectProducts);
   };
   return (
     <div
