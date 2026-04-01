@@ -8,6 +8,7 @@ import { ToastContainer } from "react-toastify";
 import ThreeSteps from "./Components/ThreeSteps/ThreeSteps";
 import Transparent from "./Components/Transparent/Transparent";
 import WorkFlow from "./Components/WorkFlow/WorkFlow";
+import Footer from "./Components/Footer/Footer";
 
 const cardsPromise = fetch("/data.json").then((res) => res.json());
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <ThreeSteps />
       <Transparent />
       <WorkFlow />
+      <Footer />
     </>
   );
 }

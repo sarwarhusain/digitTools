@@ -31,7 +31,7 @@ const NavBar = ({ selectProducts }) => {
         </div>
 
         <a className="btn  rounded-full text-white bg-linear-to-r from-[#7B2FF7] to-[#F107A3] border-none font-bold">
-          DigitTools
+          DigiTools
         </a>
       </div>
 
