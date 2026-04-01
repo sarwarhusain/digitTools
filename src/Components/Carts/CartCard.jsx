@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 const CartCard = ({ product, selectProducts, setSelectProducts }) => {
   const handleDelete = (product) => {
     console.log("clicked", product);
@@ -5,6 +7,7 @@ const CartCard = ({ product, selectProducts, setSelectProducts }) => {
       (cartsProduct) => cartsProduct.id !== product.id,
     );
     // console.log("filtered", filteredProduct);
+    toast.warning(`Deleted ${product}`)
     setSelectProducts(filteredProduct);
   };
 

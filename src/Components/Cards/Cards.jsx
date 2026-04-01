@@ -7,11 +7,19 @@ const Cards = ({ pricing, selectProducts, setSelectProducts }) => {
     setSelectProducts([...selectProducts, pricing]);
     // console.log("clicked", selectProducts);
   };
+  const tagToggle =
+    pricing.tag === "new"
+      ? "bg-green-100"
+      : pricing.tag === "popular"
+        ? "bg-purple-100"
+        : " bg-yellow-100 ";
   return (
     <div
-      className={`card bg-base-100 shadow-xl border rounded-2xl p-6 relative transition duration-300 hover:shadow-2xl hover:-translate-y-2 ${pricing.isFeatured ? "border-2 border-purple-500 scale-105" : ""}`}
+      className={`card bg-base-100 shadow-xl border rounded-2xl p-6 relative transition duration-300 hover:shadow-2xl hover:-translate-y-2  ${pricing.isFeatured ? "border-2 border-purple-500 scale-105" : ""}`}
     >
-      <div className="absolute right-4 top-4 badge badge-warning rounded-full">
+      <div
+        className={`absolute right-4  top-4 badge ${tagToggle} rounded-full`}
+      >
         {pricing.tag}
       </div>
 
@@ -33,7 +41,9 @@ const Cards = ({ pricing, selectProducts, setSelectProducts }) => {
       <ul className="space-y-2 mb-6">
         {pricing.features.map((feature, idx) => (
           <li key={idx} className="flex items-center gap-2 text-gray-600">
-            <span className="text-green-500"><FaCheck /></span>
+            <span className="text-green-500">
+              <FaCheck />
+            </span>
             {feature}
           </li>
         ))}

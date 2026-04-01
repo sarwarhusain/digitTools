@@ -1,3 +1,4 @@
+import { toast } from "react-toastify";
 import CartCard from "./CartCard";
 
 const Carts = ({ selectProducts, setSelectProducts }) => {
@@ -5,6 +6,7 @@ const Carts = ({ selectProducts, setSelectProducts }) => {
   console.log(total.toFixed(2));
   const proceed = () => {
     // console.log("clicked");
+    toast.warning(`Proceed The Total Amount${total.toFixed(2)}`);
     setSelectProducts([]);
   };
   // console.log(selectProducts);
