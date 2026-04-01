@@ -2,7 +2,7 @@ import { toast } from "react-toastify";
 
 const CartCard = ({ product, selectProducts, setSelectProducts }) => {
   const handleDelete = (product) => {
-    console.log("clicked", product);
+    // console.log("clicked", product);
     const filteredProduct = selectProducts.filter(
       (cartsProduct) => cartsProduct.id !== product.id,
     );

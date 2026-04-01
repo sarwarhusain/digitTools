@@ -3,7 +3,7 @@ import CartCard from "./CartCard";
 
 const Carts = ({ selectProducts, setSelectProducts }) => {
   const total = selectProducts.reduce((acc, curr) => acc + curr.price, 0);
-  console.log(total.toFixed(2));
+  // console.log(total.toFixed(2));
   const proceed = () => {
     // console.log("clicked");
     toast.warning(`Proceed The Total Amount${total.toFixed(2)}`);
