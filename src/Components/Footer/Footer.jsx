@@ -24,20 +24,6 @@ const Footer = () => {
                 businesses. Work smarter with our suite of powerful tools.
               </p>
             </div>
-
-            {/* <form className="flex flex-col sm:flex-row gap-3">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="w-full rounded-xl border border-gray-300 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500"
-              />
-              <p
-                type="submit"
-                className="btn  rounded-full text-white bg-linear-to-r from-[#7B2FF7] to-[#F107A3] border-none"
-              >
-                Subscribe
-              </p>
-            </form> */}
           </div>
 
           <div className=" grid grid-cols-2 md:grid-cols-5 gap-2  lg:col-span-3">
