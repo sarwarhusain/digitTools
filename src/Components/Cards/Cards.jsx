@@ -1,10 +1,13 @@
+import { useState } from "react";
 import { FaCheck } from "react-icons/fa6";
 import { toast } from "react-toastify";
 
 const Cards = ({ pricing, selectProducts, setSelectProducts }) => {
+  const [select, setSelect] = useState(false);
   const handleCart = () => {
     toast.success(`added ${pricing.name}`);
     setSelectProducts([...selectProducts, pricing]);
+    setSelect(true);
     // console.log("clicked", selectProducts);
   };
   const tagToggle =
@@ -53,7 +56,7 @@ const Cards = ({ pricing, selectProducts, setSelectProducts }) => {
         onClick={handleCart}
         className="btn w-full rounded-full text-white bg-linear-to-r from-[#7B2FF7] to-[#F107A3] border-none"
       >
-        Buy Now
+        {select === true ? "Added To Cart" : "Buy Now"}
       </button>
     </div>
   );
