@@ -6,6 +6,8 @@ import Stat from "./Components/Stat/Stat";
 import PricingOption from "./Components/PricingOption/PricingOption";
 import { ToastContainer } from "react-toastify";
 import ThreeSteps from "./Components/ThreeSteps/ThreeSteps";
+import Transparent from "./Components/Transparent/Transparent";
+import WorkFlow from "./Components/WorkFlow/WorkFlow";
 
 const cardsPromise = fetch("/data.json").then((res) => res.json());
 function App() {
@@ -29,6 +31,8 @@ function App() {
       </Suspense>
       <ToastContainer />
       <ThreeSteps />
+      <Transparent />
+      <WorkFlow />
     </>
   );
 }

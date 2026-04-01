@@ -11,10 +11,10 @@ const Banner = () => {
           New: AI-Powered Tools Available
         </button>
         <div className="">
-          <h1 className="text-[72px] font-bold">
+          <h1 className="md:text-[72px] text-4xl font-bold">
             Supercharge Your Digital Workflow
           </h1>
-          <p className="text-2xl text-[#627382]">
+          <p className="md:text-2xl text-sm text-[#627382]">
             Access premium AI tools, design assets, templates, and productivity
             software—all in one place. Start creating faster today. Explore
             Products

@@ -1,3 +1,4 @@
+import { FaCheck } from "react-icons/fa6";
 import { toast } from "react-toastify";
 
 const Cards = ({ pricing, selectProducts, setSelectProducts }) => {
@@ -32,7 +33,7 @@ const Cards = ({ pricing, selectProducts, setSelectProducts }) => {
       <ul className="space-y-2 mb-6">
         {pricing.features.map((feature, idx) => (
           <li key={idx} className="flex items-center gap-2 text-gray-600">
-            <span className="text-green-500">✔</span>
+            <span className="text-green-500"><FaCheck /></span>
             {feature}
           </li>
         ))}
