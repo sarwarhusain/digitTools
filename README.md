@@ -26,7 +26,7 @@ Dynamic data handling using JSON
 [https://shimmering-mooncake-509267.netlify.app/]
 
 code Link:
-[https://github.com/sarwarhusain/digiTools]
+[https://github.com/sarwarhusain/digitTools]
 ## Author
 
 * GitHub: https://github.com/sarwarhusain
